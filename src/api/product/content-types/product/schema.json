@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Product"
+    "displayName": "Product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -18,6 +19,11 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "Techstack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology.languages"
     }
   }
 }

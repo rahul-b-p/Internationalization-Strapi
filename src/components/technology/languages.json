@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_technology_languages",
+  "info": {
+    "displayName": "languages",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
